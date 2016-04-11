@@ -24,6 +24,5 @@ Test environment and infrastructure
 
 If all cases have one environment, put all information about hardware, software and other issues necessary for the plugin into this section and remove ‘Environment’ row from every test case . If not, then skip this section and fill in ‘Environment’ section in every case table. 
 
-.. note::
-   If you plugin is hardware-specific, provide instructions on accessing your lab.
+.. note:: If you plugin is hardware-specific, provide instructions on accessing your lab.
 

@@ -16,5 +16,6 @@ Contents:
    testing_strategy
    testing_tools
    compatibility_matrix
+   functional_testing
    appendix
 

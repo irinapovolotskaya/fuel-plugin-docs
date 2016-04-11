@@ -17,5 +17,6 @@ Contents:
    testing_tools
    compatibility_matrix
    functional_testing
+   system_testing
    appendix
 

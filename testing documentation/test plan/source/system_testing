@@ -1,0 +1,16 @@
+System testing
+==============
+
+* This section provides information on the test cases that are obligatory for your plugin.
+
+  * These cases serve to make sure that your plugin does not break the Mirantis OpenStack environments.
+
+* Please note that Mirantis recommends that you used the HA environment configuration for testing purposes:
+
+  * At least three controllers must be configured to have a reliable HA environment;
+    this is the minimum requirement for quorum-based clusters, such as Pacemaker and Galera.
+    The controller cluster can include more than three servers to increase the level of reliability.
+    For more information about how Fuel deploys HA, see
+    `Multi-node with HA Deployment <https://docs.mirantis.com/openstack/fuel/fuel-7.0/reference-architecture.html#multi-node-ha>`_.
+    
+.. note:: System testing includes OSTF as the tool recommended by Mirantis.

@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'NAME plugin for Fuel'
+project = u'Test Plan for NAME plugin for Fuel'
 copyright = u'YYYY, COMPANY NAME'
 
 # The version info for the project you're documenting, acts as replacement for

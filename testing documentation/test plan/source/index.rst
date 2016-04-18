@@ -14,8 +14,8 @@ Contents:
 
    description
    testing_strategy
-   testing_tools
    compatibility_matrix
+   testing_tools
    functional_testing
    system_testing
    appendix

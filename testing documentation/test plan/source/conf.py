@@ -230,13 +230,6 @@ latex_elements = { 'classoptions': ',openany,oneside', 'babel' : '\\usepackage[e
 
 # -- Options for manual page output ---------------------------------------
 
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    ('index', 'fuel-plugin-openbook', u'Guide to the Openbook Plugin ver. 1.1-1.1.0-1 for Fuel',
-     [u'Talligent Inc.'], 1)
-]
-
 # If true, show URL addresses after external links.
 #man_show_urls = False
 
@@ -271,12 +264,6 @@ pdf_inline_footnotes = True
 
 
 # -- Options for Epub output ----------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = u'The Openbook Plugin for Fuel'
-epub_author = u'Talligent Inc.'
-epub_publisher = u'Talligent Inc.'
-epub_copyright = u'2015, Talligent Inc.'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'fuel-plugin-openbook'

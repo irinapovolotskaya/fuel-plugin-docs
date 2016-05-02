@@ -1,28 +1,39 @@
 
-Installing <plugin name> plugin
-===============================
+.. _pg-install:
 
-To install the <plugin name> plugin, follow these steps:
+Install <plugin_name>
+=====================
 
-#. Download it from the `Fuel Plugins Catalog`_.
+Before you install <plugin_name>, verify that your environment meets the requirements described in :ref:`pg-requirements`. You must have the Fuel Master node installed and configured before you can install the plugin. Typically, you install a Fuel plugin before you deploy an OpenStack environment.  
 
-#. Copy the plugin's RPM to the Fuel Master node (if you don't
-   have the Fuel Master node, please see `the official
-   Mirantis OpenStack documentation <https://docs.mirantis.com/openstack/fuel/fuel-8.0/quickstart-guide.html#installing-mirantis-openstack-manually>`_)::
+**To install <plugin name>:**
 
-      [root@home ~]# scp <plugin filename> root@fuel-master:/tmp
+#. Download <plugin_name> from the `Fuel Plugins Catalog`_.
 
-#. Log into Fuel Master node and install the plugin using the
-   `Fuel CLI <https://docs.mirantis.com/openstack/fuel/fuel-8.0/user-guide.html#using-fuel-cli>`_::
+#. Copy the plugin ``.rpm`` package to the Fuel Master node:
 
-      [root@fuel-master ~]# fuel plugins --install <plugin filename>
+   **Example:**
+   
+   .. code-block:: console
 
-#. Verify that the plugin is installed correctly::
+      # scp <plugin filename> root@fuel-master:/tmp
 
+#. Log into Fuel Master node CLI as root.
+#. Install the plugin by typing:
 
-     [root@fuel-master ~]# fuel plugins
+   .. code-block:: console
+   
+      # fuel plugins --install <plugin filename>
+
+#. Verify that the plugin is installed correctly:
+
+   .. code-block:: console
+   
+     # fuel plugins
      id | name          | version | package_version
      ---|---------------|---------|----------------
      1  | <name>        |<version>| <version>
+
+#. Proceed to :ref:`pg-configure`.
 
 .. _Fuel Plugins Catalog: https://www.mirantis.com/products/openstack-drivers-and-plugins/fuel-plugins/

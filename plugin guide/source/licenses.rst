@@ -1,3 +1,5 @@
+.. _pg-license:
+
 Licenses
 ========
 
